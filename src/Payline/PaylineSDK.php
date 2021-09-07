@@ -1714,6 +1714,7 @@ class PaylineSDK
             'walletId'               => $array['walletId'],
             'cardInd'                => $array['cardInd'],
             'cvx'                    => $array['walletCvx'],
+            'linkedTransactionId'    => $array['linkedTransactionId'],
             'privateDataList'        => $this->privateData,
             'authentication3DSecure' => $this->authentication3DSecure($array['3DSecure']),
             'subMerchant'            => $this->subMerchant($array['subMerchant'])
